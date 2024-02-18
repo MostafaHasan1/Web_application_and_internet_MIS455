@@ -34,7 +34,7 @@ a:hover{
         font-style: normal;
 }
 .pg1-body{
-    background-color:bisque
+    background-color:bisque;
 }
 
 .pg1-header{
@@ -59,4 +59,185 @@ a:hover{
 .first-div p{
     padding-right: 2px;
     padding-left: 10px;
+}
+.para-1{
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 20px;
+    font-family: "Anta", sans-serif;
+}
+.first-pg-back-b{
+    margin-top: 20px;
+    margin-left: 50%;
+    padding: 5px 20px 5px 20px;
+    font-size: 15px;
+    background-color: #5b5c60;
+    border-radius: 3px;
+}
+.first-pg-back-b:hover{
+    color: aliceblue;
+}
+.page2-body{
+    background-color:silver
+}
+.page2-header{
+    font-family: "Rubik Glitch Pop", system-ui;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 50px;
+
+}
+.ramadan-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.page2-first-div{
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+    font-family: "Cinzel", serif;
+}
+.page3-body{
+    background-image: url(pool.jpg);
+    background-size: cover;
+}
+.page3-maincontainer{
+    display: block;
+    text-align: center;
+}
+.page3-header{
+    display: block;
+    margin-top: 15px;
+    font-size: 50px;
+    color: aliceblue;
+    font-family: "Rubik Doodle Shadow", system-ui;
+}
+.page3-first-div{
+    display: block;
+    margin-top: 8px;
+    color:aliceblue;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: "Rubik", sans-serif;
+    font-size: 17px;
+    
+}
+.page3-second-header{
+    font-family: "Protest Revolution", sans-serif;
+    text-align: center;
+    color:gold;
+    font-size: 20px;
+    margin-top: 12px;
+}
+.page3-img-div{
+    display: grid;
+    grid: auto auto / auto auto auto auto;
+    padding: 10px;
+    margin-left: 13%;
+    margin-top: 2%;
+}
+.page3-img-div img{
+    width: 250px;
+}
+.page3-img-div h2{
+    color:mintcream;
+}
+.page3-img h2:hover{
+    color:greenyellow;
+}
+.page3-backbt{
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 7%;
+}
+.page3-backbt button{
+    padding: 5px 15px 5px 15px;
+}
+.page3-backbt button:hover{
+    color:aliceblue;
+    background-color: #0f1010;
+}
+.page4-mainbody{
+    background-color: aliceblue;
+}
+.page4-header{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Alegreya Sans SC", sans-serif;
+}
+.page4-maindiv{
+    display: grid;
+    grid: auto auto / auto auto auto auto;
+    grid-gap: 20px;
+    margin-top: 3%;
+    margin-left: 15%;
+
+}
+.page4-div{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding: 25px 0;
+}
+.page4-div i{
+    margin-left: 30%;
+}
+
+.page4-div:hover{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.page4-back{
+    margin-top: 5%;
+    text-align: center;
+}
+.page4-back button{
+    background-color: aliceblue;
+    font-size: 20px;
+    border-color: aliceblue;
+}
+.page4-back button:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.page5-mainBody{
+    overflow: hidden;
+
+}
+.page5-mainContainer{
+    position: relative;
+}
+.page5-mainContainer img{
+    width: 1300px;
+    height: auto;
+}
+.page5-header{
+    position: absolute;
+    bottom: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 28px;
+    font-family: "Protest Guerrilla", sans-serif;    
+}
+.page5-header h1{
+    color: aliceblue;
+}
+.item-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    position: absolute;
+    bottom: 30%;
+    margin-left: 15%;
+}
+.item img{
+    width: 200px;
+    border-radius: 50%;
+}
+.item{
+    color: aliceblue;
+    text-align: center;
+    backdrop-filter: 10px;
 }
