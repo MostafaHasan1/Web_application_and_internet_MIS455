@@ -5,9 +5,27 @@ body {
     background-color: #f4f4f4;
 }
 
+.backgroundIMG {
+    background-image: url('imgs/secbg.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh; 
+    overflow-y: auto; 
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    color: #fff; 
+}
+
 header {
-    background-color: #333;
-    color: white;
+    /* background-color: #e9eff9; */
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 1em 0;
 }
@@ -30,8 +48,19 @@ nav {
     width: 300px;
     margin: 20px;
     padding: 10px;
-    background-color: #fff;
+    background-color: aliceblue;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #444;
+    border-end-end-radius: 1rem;
+}
+
+.tour-package:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.tour-package img {
+    max-width: 100%; /* Set maximum width to 100% of the container */
+    height: auto; /* Maintain aspect ratio */
 }
 
 button {
@@ -40,10 +69,16 @@ button {
     border: none;
     padding: 8px 12px;
     cursor: pointer;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.button:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 footer {
-    background-color: #333;
+    /* background-color: #333; */
     color: white;
     text-align: center;
     padding: 1em 0;
