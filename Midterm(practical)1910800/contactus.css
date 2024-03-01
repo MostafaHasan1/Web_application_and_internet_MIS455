@@ -1,0 +1,50 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.mainContainer{
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Ensures the background stays fixed while scrolling */
+    height: 100vh; /* 100% of the viewport height */
+    overflow-y: auto; /* Enables vertical scrolling */
+    overflow-x: hidden; /* Hides horizontal scrollbar */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    color: #fff;
+    background-color: #353535;
+}
+header {
+    /* background-color: #333; */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main_nav a {
+    text-decoration: none;
+    color: #9e9d9d;
+    font-family: "Ojuju", sans-serif;
+    font-size: 20px;
+}
+.main_nav a:hover {
+    color: #ffffff;
+}
