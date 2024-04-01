@@ -57,6 +57,7 @@ function display(data){
             var cName = data[randomNumber].name.common;
             var officialName = data[randomNumber].name.official;
             var currency = data[randomNumber].region;
+            localStorage.setItem('countryName', cName);
 
             
 
@@ -66,11 +67,15 @@ function display(data){
                 <h1>${cName}</h1>
                 <p>Official Name: ${officialName}</p>
                 <p>Region: ${currency}</p>
-                <button>Read More</button>
+                <button id="read-more">Read More</button>
             </div>
             `;
         mainDiv.appendChild(newDiv);
         newDiv.classList.add("countryCard");
+        document.getElementById('read-more').addEventListener('click', function() {
+            // Set the URL of the new page
+            window.open('weather.html', '_blank');
+          });
     }
     
 }
