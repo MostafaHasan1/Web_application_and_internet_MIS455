@@ -1,0 +1,30 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Arial', sans-serif;
+}
+.sticky-top{
+    top: 0;
+}
+
+.c-item{
+    height: 480px;
+} 
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+.empty-div{
+    padding: 50px;
+}
+.pkgHeader{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.freq{
+    text-align: center;
+    padding: 90px;
+}
+
