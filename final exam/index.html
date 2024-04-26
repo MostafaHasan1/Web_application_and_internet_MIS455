@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Exam Practical</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <div class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container">
+              <a class="navbar-brand mr-5 mb-2 p-2 fs-3 fw-lighter" id="headv" href="#">MealDB</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                   
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#aq">FAQ</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+
     
+    <main>
+        <div class="d-flex justify-content-center m-3 p-3">
+            <input type="text" id="searchInput" placeholder="Enter a meal name">
+            <button class="btn btn-outline-success" onclick="searchMeal()">Search</button>
+        </div>
+        <div id="mealContainer" class="container">
+            <!-- Meal details will be inserted here -->
+        </div>
+        <button class="btn btn-outline-success"  id="showAllBtn" onclick="showAllMeals()" >Show All</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Meal Search App</p>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
+
 </html>

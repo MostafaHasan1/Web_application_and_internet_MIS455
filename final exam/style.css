@@ -1,0 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(img/cook.jpg);
+    overflow: scroll;
+}
+.sticky-top{
+    top: 0;
+}
+
+.margin{
+    margin-left: 10px;
+}
